@@ -589,8 +589,8 @@ input {
     }
 
 
-    .raq { 
-       display: none;
+    .raq {
+        display: none;
     }
 
 
@@ -607,7 +607,7 @@ input {
         height: auto;
         padding: 30px 20px;
 
-       
+
     }
 
     .sco {
@@ -653,7 +653,7 @@ input {
         cursor: pointer;
     }
 
-    
+
     .cartss {
         flex-direction: column;
         gap: 15px;
@@ -667,7 +667,7 @@ input {
         align-items: center;
         padding: 15px 20px;
         margin-top: 0 !important;
-       
+
     }
 
     .cartt p {
@@ -734,11 +734,12 @@ input {
         font-size: 16px;
         line-height: 1.6;
     }
-    .photo img{
+
+    .photo img {
         width: 100%;
     }
 
- 
+
     .why {
         height: auto;
         margin-top: 0;
@@ -806,7 +807,11 @@ input {
         display: block;
     }
 
-    /* ── Mini catalog ── */
+    .red1 {
+        display: none !important;
+    }
+
+
     .mini {
         width: 100%;
         height: auto;
@@ -844,7 +849,7 @@ input {
         margin-left: auto;
     }
 
-    /* ── Product grid (2-column) ── */
+
     .nav {
         width: 100%;
         height: auto;
@@ -857,17 +862,15 @@ input {
     }
 
     .red {
-        width: calc(50% - 5px);
+        width: 48%;
         height: auto;
-        min-height: 240px;
+        height: 240px;
         border-radius: 6px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
         box-sizing: border-box;
-        justify-content: flex-start;
-        row-gap: 0;
     }
 
     .red img {
@@ -905,7 +908,6 @@ input {
         cursor: pointer;
     }
 
-    /* ── Catalog actions ── */
     .pere {
         width: 100%;
         height: auto;
@@ -915,7 +917,6 @@ input {
         flex-direction: column;
         align-items: center;
         gap: 15px;
-        box-sizing: border-box;
     }
 
     .pere button {
@@ -934,7 +935,6 @@ input {
         cursor: pointer;
     }
 
-    /* ── Supplier chooser form ── */
     .kak {
         height: auto;
         padding: 40px 20px;
@@ -981,9 +981,6 @@ input {
         box-sizing: border-box;
     }
 
-    input::placeholder {
-        color: #9C9C9C;
-    }
 
     .left button {
         width: 100% !important;
@@ -1004,7 +1001,7 @@ input {
         display: none;
     }
 
-    /* ── Footer ── */
+  
     .footer {
         padding: 50px 0 30px;
     }
@@ -1014,7 +1011,6 @@ input {
         flex-direction: column;
         gap: 30px;
         padding: 0 20px;
-        box-sizing: border-box;
     }
 
     .footer-brand {
@@ -1025,7 +1021,6 @@ input {
         width: 157px;
         height: auto;
         margin-bottom: 20px;
-        justify-content: flex-start;
     }
 
     .footer-logo img {
@@ -1036,30 +1031,30 @@ input {
         display: inline-block;
         margin-right: 15px;
         margin-bottom: 10px;
-        font-size: 16px;
+        font-size: 13px;
         font-weight: 500;
     }
 
     .footer-copyright {
-        font-size: 12px;
+        font-size: 10px;
         margin-top: 15px;
         line-height: 1.5;
     }
 
     .footer-column {
-        width: 100%;
+        width: 47%;
     }
 
     .footer-column h3 {
-        font-size: 16px;
+        font-size: 13px;
         font-weight: 700;
         margin-bottom: 15px;
     }
 
     .footer-column a,
     .footer-column p {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 13px;
+        line-height: 18px;
         margin-bottom: 15px;
     }
 
