@@ -4,7 +4,7 @@
 }
 .top{
     width: 100%;
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -14,9 +14,351 @@
 }
 .cart{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -20px;
 }
 .search{
     width: 400px;
+    height: 20px;
     border-bottom: 1px solid grey;
     color: grey;
+}
+.nash a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+.kat{
+     width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.kat h4{
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+.kat img{
+    margin-right: 15px;
+
+}
+.kat button{
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #FF7715;
+
+}
+.gla{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 25px;
+    gap: 20px;
+
+}
+.black{
+    width: 100%;
+    height: 600px;
+    background-color: #222222;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.phone{
+    display: none;
+}
+
+.cent{
+    width: 100%;
+    height: 600px;
+    background-color: #222222;
+    color: white;
+   margin-top: 50px;
+   padding: 100px;
+
+}
+
+.cent h1{
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 40px;
+}
+.isxod{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    border-bottom: 1px solid grey;
+}
+.res{
+    margin: 15px;
+}
+.box{
+    width: 25%;
+    height: 70px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    
+}
+.raq{
+    padding: 15px 40px ;
+    font-size: 35px;
+}
+.ki{
+    width: 97%;
+    padding: 15px;
+    background-color: #FF7715;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.white{
+    width: 100%;
+    height: 700px;
+    padding: 40px 70px;
+    position: relative;
+}
+.sco{
+    display: flex;
+}
+.day
+{
+    margin-left: 300px;
+}
+.day p{
+    font-size: 40px;
+    color: #FF7715;
+}
+.day span{
+    margin-left: 55px;
+    margin-top: -30px;
+    position: absolute;
+}
+.day button{
+    padding: 10px;
+    width: 200px;
+    background-color: #FF7715;
+    border-radius: 5px;
+    border: none;
+}
+
+.cartt{
+
+    width: 27%;
+    height: 100px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 40px;
+
+
+}
+.cartss{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    
+}
+.cart3{
+    position: relative;
+    top: 140px;
+    left: -320px;
+}
+.cart4{
+    height: 240px;
+    margin-left: 350px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+}
+.cart4 h4{
+   color: #FF7715 !important ;
+}
+.photo{
+    display: flex;
+    margin-top: 80px;
+}
+.a{
+    width: 380px;
+}
+
+.why{
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+   background-color: aquamarine;
+    background-image: url("images/Untitled.png");
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    color: white;
+    padding: 30px 0;
+
+}
+.why h1{
+    margin-left: 100px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.why p{
+    margin-left: 100px;
+    font-size: 15px;
+}
+.app{
+    width: 500px;
+    display: flex;
+    background-color: #222120;
+    margin-left: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    gap: 30px;
+}
+.app button{
+    background-color: rgb(5, 161, 5);
+    border: none;
+    width: 130px;
+    border-radius: 5px;
+}
+.ham{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 80px;
+    column-gap: 30px;
+}
+.ham h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.mini
+ {
+    width: 85%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    border: 1px dashed grey;
+    align-items: center;
+    margin-bottom: 50px;
+ }
+ .nav{
+    width: 86%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    column-gap: 10px;
+ }
+ .red{
+    width: 24%;
+    height: 270px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+ }
+ .red h5{
+    font-size: 15px;
+ }
+ .red button{
+    width: 90%;
+    background-color: #FF7715;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+ }
+
+ .pere{
+    width: 40%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    gap: 40px;
+    padding: 5px;
+
+ }
+ .pere button{
+    padding: 5px !important;
+    width: 140px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+ .pere p{
+    margin-top: 9px;
+ }
+
+
+
+
+
+
+@media (max-width: 510px) {
+    .top{
+        display: none;
+    }
+    .kat{
+        display: none;
+    }
+    .phone{
+        display: block;
+        flex-direction: column;
+    }
+    .ek {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px;
+    }
+    .cur{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 25px;
+    }
+    .img1{
+        margin-left: 130px;
+        margin-right: 20px;
+    }
+    .phone button{
+        width: 350px;
+        padding: 10px;
+         border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #FF7715;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 20px;}
+
+
+    .gla{
+        margin-left: 20px;
+    }
+
+
+
 }
